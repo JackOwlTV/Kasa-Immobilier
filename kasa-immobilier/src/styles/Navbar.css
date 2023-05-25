@@ -1,0 +1,20 @@
+.ki-nav {
+	display: flex;
+	align-items: center;
+	margin: 20px;
+}
+
+.ki-navlink {
+	text-decoration: none;
+	color: #FF6060;
+	display: flex;
+	margin-left: 12px;
+}
+
+.ki-navlink {
+	text-decoration: none;
+	color: #FF6060;
+	display: flex;
+	margin-left: 12px;
+}
+

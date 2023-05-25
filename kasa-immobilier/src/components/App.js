@@ -3,16 +3,18 @@ import Home from './Home/home';
 import Error from './Error/error';
 import About from './About/about';
 import Logement from './Logement/logement'
-
+import Navbar from './navbar'
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/error404' element={<Error/>} />
+        <Route path='/*' element={<Error/>} />
+        <Route path='/logement/*' element={<Error/>} />
         <Route path='/about' element={<About/>} />
-        <Route path='/logement' element={<Logement/>} />
+        <Route path='/logement/:id' element={<Logement/>} />
       </Routes>
     </div>
   );
