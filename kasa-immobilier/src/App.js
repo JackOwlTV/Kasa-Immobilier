@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import Home from './home';
-import Error from './error';
-import About from './about';
-import Logement from './logement'
-import Navbar from './navbar'
-import "../styles/App.css";
+import Home from './page/home';
+import Error from './page/error';
+import About from './page/about';
+import Logement from './page/logement'
+import Navbar from './components/navbar'
+import "./styles/App.css";
 
 function App() {
   return (
