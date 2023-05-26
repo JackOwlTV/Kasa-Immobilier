@@ -1,0 +1,29 @@
+footer {
+    background: black;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 6vw 0 2vw;
+    margin-top: 50px;
+}
+
+footer img {
+    width: 122px;
+    margin-bottom: 3vw;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+
+@media screen and (max-width:740px) {
+    footer {
+        margin-top: 25px;
+        padding: 62px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
