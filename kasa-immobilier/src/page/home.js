@@ -13,9 +13,9 @@ export default function home() {
           title="Chez vous, partout et ailleurs"
         />
 
-        <Gallery/>
+        <Gallery />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
